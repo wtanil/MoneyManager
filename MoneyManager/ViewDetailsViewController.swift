@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewDetailsViewController: UIViewController {
+    
+    @IBOutlet weak var dateAndTimeLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var amountLabel: UILabel!
+    @IBOutlet weak var isIncomeLabel: UILabel!
+    @IBOutlet weak var isLoanLabel: UILabel!
+    @IBOutlet weak var noteTextView: UITextView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

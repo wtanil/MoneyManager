@@ -9,7 +9,21 @@
 import UIKit
 
 class SummaryViewController: UIViewController {
+    
+    
+    @IBOutlet weak var todayAllocatedBalanceLabel: UILabel!
+    @IBOutlet weak var tomorrowAllocatedBalanceLabel: UILabel!
+    @IBOutlet weak var thisWeekAllocatedBalanceLabel: UILabel!
+    @IBOutlet weak var thisMonthAllocatedBalanceLabel: UILabel!
 
+    @IBOutlet weak var positiveOutstandingBalanceLabel: UILabel!
+    @IBOutlet weak var negativeOutstandingBalanceLabel: UILabel!
+    
+    @IBOutlet weak var todayAverageUseLabel: UILabel!
+    @IBOutlet weak var tomorrowAverageUseLabel: UILabel!
+    @IBOutlet weak var thisWeekAverageUseLabel: UILabel!
+    @IBOutlet weak var thisMonthAverageUseLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

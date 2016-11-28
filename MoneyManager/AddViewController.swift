@@ -9,7 +9,27 @@
 import UIKit
 
 class AddViewController: UIViewController {
+    
+    
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var currencyTextField: UITextField!
+    @IBOutlet weak var amountTextField: UITextField!
+    @IBAction func isIncome(_ sender: Any) {
+    }
+    @IBAction func isLoan(_ sender: Any) {
+    }
+    @IBAction func datePicker(_ sender: Any) {
+    }
+    @IBOutlet weak var noteTextView: UITextView!
+    @IBAction func fileUploadAction(_ sender: Any) {
+    }
+    @IBOutlet weak var fileUploadButton: UIButton!
+    @IBAction func submitAction(_ sender: Any) {
+    }
+    @IBOutlet weak var submitButton: UIButton!
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
