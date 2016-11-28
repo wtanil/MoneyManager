@@ -18,6 +18,7 @@
 		AAD0649E1DE40C3900355282 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0649D1DE40C3900355282 /* SummaryViewController.swift */; };
 		AAD064A01DE40C9900355282 /* ViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */; };
 		AAD064A21DE40CA700355282 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */; };
+		AAE876F21DEBDC830034ED62 /* ViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		AAD0649D1DE40C3900355282 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTableViewController.swift; sourceTree = "<group>"; };
 		AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailsViewController.swift; sourceTree = "<group>"; };
 		D55FC3A82175688A80442C09 /* Pods_MoneyManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				AAD0649D1DE40C3900355282 /* SummaryViewController.swift */,
 				AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */,
 				AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */,
+				AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */,
 				AAD064711DE409EC00355282 /* Main.storyboard */,
 				AAD064741DE409EC00355282 /* Assets.xcassets */,
 				AAD064761DE409EC00355282 /* LaunchScreen.storyboard */,
@@ -350,6 +353,7 @@
 				AAD064A01DE40C9900355282 /* ViewTableViewController.swift in Sources */,
 				AAD0649C1DE40C3100355282 /* AddViewController.swift in Sources */,
 				AAD0649E1DE40C3900355282 /* SummaryViewController.swift in Sources */,
+				AAE876F21DEBDC830034ED62 /* ViewDetailsViewController.swift in Sources */,
 				AAD064A21DE40CA700355282 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
