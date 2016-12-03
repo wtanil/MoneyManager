@@ -19,6 +19,8 @@ xcuserdata/
 
 ## Other
 *.moved-aside
+*.xccheckout
+*.xcscmblueprint
 *.xcuserstate
 
 ## Obj-C/Swift specific
@@ -63,3 +65,4 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+

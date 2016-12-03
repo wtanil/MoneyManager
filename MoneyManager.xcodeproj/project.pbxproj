@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		8311B9F71E516F9FBA576127 /* Pods_MoneyManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55FC3A82175688A80442C09 /* Pods_MoneyManager.framework */; };
 		AAD0646C1DE409EC00355282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0646B1DE409EC00355282 /* AppDelegate.swift */; };
-		AAD0646E1DE409EC00355282 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0646D1DE409EC00355282 /* FirstViewController.swift */; };
-		AAD064701DE409EC00355282 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0646F1DE409EC00355282 /* SecondViewController.swift */; };
 		AAD064731DE409EC00355282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD064711DE409EC00355282 /* Main.storyboard */; };
 		AAD064751DE409EC00355282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD064741DE409EC00355282 /* Assets.xcassets */; };
 		AAD064781DE409EC00355282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD064761DE409EC00355282 /* LaunchScreen.storyboard */; };
 		AAD064831DE409EC00355282 /* MoneyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD064821DE409EC00355282 /* MoneyManagerTests.swift */; };
 		AAD0648E1DE409EC00355282 /* MoneyManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0648D1DE409EC00355282 /* MoneyManagerUITests.swift */; };
+		AAD0649C1DE40C3100355282 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0649B1DE40C3100355282 /* AddViewController.swift */; };
+		AAD0649E1DE40C3900355282 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0649D1DE40C3900355282 /* SummaryViewController.swift */; };
+		AAD064A01DE40C9900355282 /* ViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */; };
+		AAD064A21DE40CA700355282 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */; };
+		AAE876F21DEBDC830034ED62 /* ViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		2EA4903639EF95D89F530236 /* Pods-MoneyManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyManager/Pods-MoneyManager.release.xcconfig"; sourceTree = "<group>"; };
 		AAD064681DE409EC00355282 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD0646B1DE409EC00355282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAD0646D1DE409EC00355282 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AAD0646F1DE409EC00355282 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AAD064721DE409EC00355282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAD064741DE409EC00355282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD064771DE409EC00355282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,11 @@
 		AAD064891DE409EC00355282 /* MoneyManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD0648D1DE409EC00355282 /* MoneyManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyManagerUITests.swift; sourceTree = "<group>"; };
 		AAD0648F1DE409EC00355282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD0649B1DE40C3100355282 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AAD0649D1DE40C3900355282 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTableViewController.swift; sourceTree = "<group>"; };
+		AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDetailsViewController.swift; sourceTree = "<group>"; };
 		D55FC3A82175688A80442C09 /* Pods_MoneyManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,8 +122,11 @@
 			isa = PBXGroup;
 			children = (
 				AAD0646B1DE409EC00355282 /* AppDelegate.swift */,
-				AAD0646D1DE409EC00355282 /* FirstViewController.swift */,
-				AAD0646F1DE409EC00355282 /* SecondViewController.swift */,
+				AAD0649B1DE40C3100355282 /* AddViewController.swift */,
+				AAD0649D1DE40C3900355282 /* SummaryViewController.swift */,
+				AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */,
+				AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */,
+				AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */,
 				AAD064711DE409EC00355282 /* Main.storyboard */,
 				AAD064741DE409EC00355282 /* Assets.xcassets */,
 				AAD064761DE409EC00355282 /* LaunchScreen.storyboard */,
@@ -340,9 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAD064701DE409EC00355282 /* SecondViewController.swift in Sources */,
 				AAD0646C1DE409EC00355282 /* AppDelegate.swift in Sources */,
-				AAD0646E1DE409EC00355282 /* FirstViewController.swift in Sources */,
+				AAD064A01DE40C9900355282 /* ViewTableViewController.swift in Sources */,
+				AAD0649C1DE40C3100355282 /* AddViewController.swift in Sources */,
+				AAD0649E1DE40C3900355282 /* SummaryViewController.swift in Sources */,
+				AAE876F21DEBDC830034ED62 /* ViewDetailsViewController.swift in Sources */,
+				AAD064A21DE40CA700355282 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -465,6 +478,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -494,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04EAE10F683DD0E59BFC5284 /* Pods-MoneyManager.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6GS675XAJ5;
 				INFOPLIST_FILE = MoneyManager/Info.plist;
@@ -508,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EA4903639EF95D89F530236 /* Pods-MoneyManager.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6GS675XAJ5;
 				INFOPLIST_FILE = MoneyManager/Info.plist;
@@ -595,6 +611,7 @@
 				AAD064941DE409EC00355282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAD064951DE409EC00355282 /* Build configuration list for PBXNativeTarget "MoneyManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +620,7 @@
 				AAD064971DE409EC00355282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAD064981DE409EC00355282 /* Build configuration list for PBXNativeTarget "MoneyManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +629,7 @@
 				AAD0649A1DE409EC00355282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
