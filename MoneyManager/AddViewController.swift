@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class AddViewController: UIViewController {
     
     
@@ -18,8 +19,8 @@ class AddViewController: UIViewController {
     }
     @IBAction func isLoan(_ sender: Any) {
     }
-    @IBAction func datePicker(_ sender: Any) {
-    }
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
     @IBOutlet weak var noteTextView: UITextView!
     @IBAction func fileUploadAction(_ sender: Any) {
     }
@@ -34,6 +35,17 @@ class AddViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+//        let testRecord = RecordWrapper(id: 1, title: "test", currency: "", note: "", amount: 123.123, isIncome: true, isLoan: true, date: Date(timeIntervalSinceNow: 60))
+//        
+//        print("first test \(testRecord.title)")
+//        
+//        testRecord.title = "not test"
+//        
+//        print("second test \(testRecord.title)")
+//        
+//        print("test \0 a \\ b \t c \n d \r e 'f'")
+        
     }
 
     override func didReceiveMemoryWarning() {
