@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8311B9F71E516F9FBA576127 /* Pods_MoneyManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55FC3A82175688A80442C09 /* Pods_MoneyManager.framework */; };
+		AA09269D1DFACB9E001FC6B3 /* AlamofireWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09269C1DFACB9E001FC6B3 /* AlamofireWrapper.swift */; };
+		AA91BBAF1DF2B5670018CAAA /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91BBAE1DF2B5670018CAAA /* Record.swift */; };
+		AABEDBC61DF6955D0082ECFB /* ViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEDBC51DF6955D0082ECFB /* ViewTableViewCell.swift */; };
 		AAD0646C1DE409EC00355282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD0646B1DE409EC00355282 /* AppDelegate.swift */; };
 		AAD064731DE409EC00355282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD064711DE409EC00355282 /* Main.storyboard */; };
 		AAD064751DE409EC00355282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD064741DE409EC00355282 /* Assets.xcassets */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		04EAE10F683DD0E59BFC5284 /* Pods-MoneyManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyManager/Pods-MoneyManager.debug.xcconfig"; sourceTree = "<group>"; };
 		2EA4903639EF95D89F530236 /* Pods-MoneyManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyManager/Pods-MoneyManager.release.xcconfig"; sourceTree = "<group>"; };
+		AA09269C1DFACB9E001FC6B3 /* AlamofireWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireWrapper.swift; sourceTree = "<group>"; };
+		AA91BBAE1DF2B5670018CAAA /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		AABEDBC51DF6955D0082ECFB /* ViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTableViewCell.swift; sourceTree = "<group>"; };
 		AAD064681DE409EC00355282 /* MoneyManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD0646B1DE409EC00355282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAD064721DE409EC00355282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +102,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AA91BBB01DF2B56E0018CAAA /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA91BBAE1DF2B5670018CAAA /* Record.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		AABEDBC71DF695640082ECFB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AABEDBC51DF6955D0082ECFB /* ViewTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		AAD0645F1DE409EC00355282 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +147,11 @@
 				AAD0649B1DE40C3100355282 /* AddViewController.swift */,
 				AAD0649D1DE40C3900355282 /* SummaryViewController.swift */,
 				AAD0649F1DE40C9900355282 /* ViewTableViewController.swift */,
-				AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */,
 				AAE876F11DEBDC830034ED62 /* ViewDetailsViewController.swift */,
+				AAD064A11DE40CA700355282 /* SettingsTableViewController.swift */,
+				AA09269C1DFACB9E001FC6B3 /* AlamofireWrapper.swift */,
+				AA91BBB01DF2B56E0018CAAA /* Data Models */,
+				AABEDBC71DF695640082ECFB /* Cells */,
 				AAD064711DE409EC00355282 /* Main.storyboard */,
 				AAD064741DE409EC00355282 /* Assets.xcassets */,
 				AAD064761DE409EC00355282 /* LaunchScreen.storyboard */,
@@ -349,12 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABEDBC61DF6955D0082ECFB /* ViewTableViewCell.swift in Sources */,
 				AAD0646C1DE409EC00355282 /* AppDelegate.swift in Sources */,
 				AAD064A01DE40C9900355282 /* ViewTableViewController.swift in Sources */,
 				AAD0649C1DE40C3100355282 /* AddViewController.swift in Sources */,
 				AAD0649E1DE40C3900355282 /* SummaryViewController.swift in Sources */,
+				AA91BBAF1DF2B5670018CAAA /* Record.swift in Sources */,
 				AAE876F21DEBDC830034ED62 /* ViewDetailsViewController.swift in Sources */,
 				AAD064A21DE40CA700355282 /* SettingsTableViewController.swift in Sources */,
+				AA09269D1DFACB9E001FC6B3 /* AlamofireWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
